@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    margin: 20px 180px;
+    background-color: #f0f4f5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a:hover{
+    background-color: black;
+    width: 100px;
+    border-radius:2px ;
+    box-shadow: 0px 0px 10px black;
+    color: #20BC7E;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+
+
+.Main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 200px;
+}
+
+.left{
+    margin-top: 130px ;
+}
+
+.top{
+    
+   width: 41vw;
+   margin-bottom: 5px;
+}
+
+.lefthead{
+    font-size: 60px;
+    line-height: 70px;
+}
+
+p{
+    color: #7c7c7c;
+  font-size: 16px;
+  margin-top: 15px ;
+  margin-bottom: 10px;
+}
+
+
+.stethoscope{
+    position: absolute;
+    top: 200px;
+    height: 500px;
+    left: 405px;
+    z-index: -1;
+    
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    height: 45px;
+    width: 240px;
+    border: transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    background-color:  #20BC7E;
+}
+
+.btn:hover{
+    background-color: #000000;
+    
+    border-radius:5px ;
+    box-shadow: 0px 0px 10px #000000;
+    color: #20BC7E;
+}
+
+
+
+ .bottomangle{
+    position: absolute;
+    left: 740px;
+    bottom:190px;
+} 
+
+.mouse{
+    position: absolute;
+    bottom: 130px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.green{
+    position: absolute;
+    top: 255px;
+    right: 2px;
+    width: 450px;
+    z-index: -1;
+}
+
+.yellow{
+    position:absolute;
+    top:350px;
+    right: 0px;
+    width: 320px;
+    z-index: -1;
+}
+
+.doctor{
+    height: 90vh;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    margin: 20px 60px;
+    background-color: #f0f4f5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a:hover{
+    background-color: black;
+    width: 100px;
+    border-radius:2px ;
+    box-shadow: 0px 0px 10px black;
+    color: #20BC7E;
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    max-width: 300px;
+    margin: 120px auto;
+    
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px black;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 10px;
+}
+.nav{
+    margin-inline: 10px;
+}
+
+input{
+    border-radius: 7px;
+    border: transparent;
+    width: 270px;
+    padding: 3px;
+    margin-inline: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+
+}
+
+label{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+textarea{
+    border-radius: 7px;
+    width: 270px;
+    padding: 3px;
+    height: 100px;
+    margin-inline: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+    border: transparent;
+}
+button{
+    border: transparent;
+    border-radius: 7px;
+    width: 270px;
+    padding: 3px;
+    margin-inline: auto;
+    margin-bottom: 15px;
+    height: 30px;
+    font-weight: bold;
+    background: #20BC7E;
+    color: white;
+}
+
+button:hover{
+    background-color: #000000;
+        
+        border-radius:5px ;
+        box-shadow: 0px 0px 10px #000000;
+        color: #20BC7E;
+}
